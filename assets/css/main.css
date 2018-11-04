@@ -9,7 +9,7 @@
 
 /* One */
 
-	#one:before {
+	#about:before {
 		background-image: url("../../images/banner1.jpg");
 		background-position: top center;
 		background-repeat: no-repeat;
@@ -2827,7 +2827,7 @@
 
 		/* One */
 
-			#one:before {
+			#about:before {
 				height: 10em;
 			}
 
@@ -3025,7 +3025,7 @@
 
 		/* One */
 
-			#one:before {
+			#about:before {
 				height: 7em;
 			}
 
