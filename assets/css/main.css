@@ -9,7 +9,7 @@
 
 /* One */
 
-	#about:before {
+	#home:before {
 		background-image: url("../../images/banner1.jpg");
 		background-position: top center;
 		background-repeat: no-repeat;
@@ -19,7 +19,35 @@
 		height: 15em;
 		width: 100%;
 	}
-*
+
+	.vidContainer {
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding-bottom: 56.25%;
+	}
+
+	.vid {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	#firstContainer {
+		padding: 0 0 2em 0 !important;
+
+	}
+
+	.sloganHr {
+		margin: 1.5em 0 !important;
+	}
+
+	#contactBtn {
+		margin:auto !important;
+		display:block !important;
+	}
 	
 /* Logo 
 
@@ -1656,7 +1684,7 @@
 
 	h2 {
 		font-size: 2em;
-		line-height: 1.5em;
+		margin: 0 0 0 0;
 	}
 
 	h3 {
@@ -2827,7 +2855,7 @@
 
 		/* One */
 
-			#about:before {
+			#home:before {
 				height: 10em;
 			}
 
@@ -3025,7 +3053,7 @@
 
 		/* One */
 
-			#about:before {
+			#home:before {
 				height: 7em;
 			}
 
