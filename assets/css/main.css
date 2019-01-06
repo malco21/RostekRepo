@@ -16,7 +16,7 @@
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 12em;
 		width: 100%;
 	}
 
@@ -36,7 +36,9 @@
 	}
 
 	#firstContainer {
-		padding: 0 0 2em 0 !important;
+		position: relative !important;
+		top:-3em !important;
+		padding: 0 0 0 0 !important;
 
 	}
 
@@ -65,7 +67,7 @@
 	max-width:55%;
 	max-height:55%;
 	left: 22.5%;
-	top:-4em;
+	top:-7em;
     box-shadow: 0px 0px 10px #888888;
 	}
 
@@ -75,10 +77,10 @@
 	@media screen and (max-width: 1550px){
 		img.resize {
 	position: relative;
-	max-width:80%;
-	max-height:80%;
+	max-width:75%;
+	max-height:75%;
 	left: 11%;
-	top:-3em;
+	top:-5em;
     box-shadow: 0px 0px 10px #888888;
 	}
 	}
