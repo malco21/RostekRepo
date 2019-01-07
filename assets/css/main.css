@@ -2431,16 +2431,16 @@
 		input[type="reset"].alt,
 		input[type="button"].alt,
 		.button.alt {
-			background-color: transparent;
+			background-color: #ff8c00;
 			box-shadow: inset 0 0 0 2px #e4e4e4;
-			color: #777 !important;
+			color: white !important;
 		}
 
 			input[type="submit"].alt:hover,
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background-color: #94618E;
+				background-color: #ffc370;
 				color: #777 !important;
 			}
 
