@@ -8,6 +8,16 @@
 */
 
 /* One */
+	#fbFont {
+		font-size:175%;
+		color:white !important;
+	}
+
+	#fbBtn {
+		float:right;
+		margin-top: 5px;
+		margin-right: 10px;
+	}
 
 	#home:before {
 		background-image: url("../../images/banner1.jpg");
@@ -2417,7 +2427,7 @@
 		input[type="reset"].small,
 		input[type="button"].small,
 		.button.small {
-			font-size: 0.8em;
+			font-size: 0.5em;
 		}
 
 		input[type="submit"].big,
@@ -2436,27 +2446,57 @@
 			color: white !important;
 		}
 
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			input[type="button"].alt:hover,
-			.button.alt:hover {
-				background-color: #ffc370;
-				color: #777 !important;
-			}
+		input[type="submit"].alt:hover,
+		input[type="reset"].alt:hover,
+		input[type="button"].alt:hover,
+		.button.alt:hover {
+			background-color: #ffc370;
+			color: #777 !important;
+		}
 
-			input[type="submit"].alt:active,
-			input[type="reset"].alt:active,
-			input[type="button"].alt:active,
-			.button.alt:active {
-				background-color: #94618E;
-			}
+		input[type="submit"].alt:active,
+		input[type="reset"].alt:active,
+		input[type="button"].alt:active,
+		.button.alt:active {
+			background-color: #94618E;
+		}
 
-			input[type="submit"].alt.icon:before,
-			input[type="reset"].alt.icon:before,
-			input[type="button"].alt.icon:before,
-			.button.alt.icon:before {
-				color: #aaa;
-			}
+		input[type="submit"].alt.icon:before,
+		input[type="reset"].alt.icon:before,
+		input[type="button"].alt.icon:before,
+		.button.alt.icon:before {
+			color: #aaa;
+		}
+
+		input[type="submit"].fb,
+		input[type="reset"].fb,
+		input[type="button"].fb,
+		.button.fb {
+			background-color: #3b5998;
+			box-shadow: inset 0 0 0 2px #e4e4e4;
+			color: white !important;
+		}
+
+		input[type="submit"].fb:hover,
+		input[type="reset"].fb:hover,
+		input[type="button"].fb:hover,
+		.button.fb:hover {
+			background-color: #122b5c;
+		}
+
+		input[type="submit"].fb:active,
+		input[type="reset"].fb:active,
+		input[type="button"].fb:active,
+		.button.fb:active {
+			background-color: #3b5998;
+		}
+
+		input[type="submit"].fb.icon:before,
+		input[type="reset"].fb.icon:before,
+		input[type="button"].fb.icon:before,
+		.button.fb.icon:before {
+			color: #aaa;
+		}
 
 		input[type="submit"].special,
 		input[type="reset"].special,
