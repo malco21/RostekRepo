@@ -8,11 +8,24 @@
 */
 
 /* One */
-	#fbFont {
+	#whiteIcon {
 		font-size:175%;
 		color:white !important;
 	}
 
+	#fbIcon {
+		font-size:175%;
+		color: #3b5998 !important;
+		float: right;
+	}
+
+	#linkedInIcon {
+		font-size:175%;
+		color: #0e76a8 !important;
+		float: right;
+		margin-left: 15px;
+	}
+	
 	#fbBtn {
 		float:right;
 		margin-top: 5px;
