@@ -7,6 +7,48 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.fa-li.fa.fa-check-square {
+  top: 0.3rem;
+}
+
+.toggleText {
+  display: none;
+  font-size: 95%
+}
+
+.toggle-button {
+  cursor:pointer;
+}
+
+.avatar-section {
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.avatar-container {
+  flex: 1;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.card-container {
+  display:flex;
+  justify-content: space-between;
+}
+.card{
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  background-color: #94618e24;
+  border-radius: 5px;
+}
+.card-text {
+  font-size: 95%;
+  margin: 0;
+  line-height: 1.4rem;
+}
 /* One */
 	#whiteIcon {
 		font-size:175%;
@@ -1691,13 +1733,13 @@
 	}
 
 	p {
-		margin: 0 0 2.25em 0;
+		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #49274A;
 		font-weight: 700;
-		line-height: 1em;
+		line-height: 1.5em;
 		margin: 0 0 0.5625em 0;
 	}
 
@@ -1723,7 +1765,7 @@
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1em;
 		line-height: 1.5em;
 	}
 
@@ -2127,6 +2169,7 @@
 		.image.avatar {
 			border-radius: 100%;
 			overflow: hidden;
+      padding:20px;
 		}
 
 			.image.avatar img {
@@ -2743,13 +2786,14 @@
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		/* padding: 4em 0 2em 0; */
 	}
 
 		#footer .copyright {
 			line-height: 1em;
 			list-style: none;
 			padding: 0;
+      margin: 0;
 		}
 
 			#footer .copyright li {
